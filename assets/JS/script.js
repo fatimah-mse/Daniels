@@ -143,7 +143,7 @@ function counter(obj) {
         if (obj.textContent == goal) {
             clearInterval(count)
         }
-    }, (2000 / goal ))
+    }, 2000 / goal )
 }
 
 // Preloader

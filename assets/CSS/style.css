@@ -104,7 +104,7 @@ section {
 }
 .about-me .progress span {
     font-size: 15px;
-    width: 22%;
+    width: 30%;
     transition: all 0.6s ease-in-out;
 }
 .about-me .download ,
@@ -194,29 +194,21 @@ section {
 .team .card img:hover {
     transform: scale(1.12);
 }
-@media screen and (max-width:1200px) {
-    .about-me .progress span {
-        width: 26%;
-    }
-}
 @media screen and (max-width:992px) {
     .navbar .navbar-nav {
         background-color: transparent;
         backdrop-filter: blur(10px);
     }
     .about-me .progress span {
-        width: 35%;
+        width: 40%;
     }
 }
 @media screen and (max-width:768px) {
     .about-me .progress span {
-        width: 29%;
-    }
-}
-@media screen and (max-width:500px) {
-    .about-me .progress span {
         width: 35%;
     }
+}
+@media screen and (max-width:576px) {
     #numbers p {
         font-size: 13px !important;
     }
